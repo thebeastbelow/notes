@@ -1,0 +1,47 @@
+/* elements */
+
+body {
+  color: #eee;
+  font-size: 18px;
+  background-color: #111;
+  font-family: 'Cutive Mono', monospace;
+}
+
+a {
+  color: #eee;
+  outline: none;
+  text-decoration: none;
+  transition: color, 500ms;
+  font-variant-caps: small-caps;
+}
+
+a:hover {
+  color: #e61416;
+  transition: color, 500ms;
+}
+
+main {
+  max-width: 500px;
+}
+
+code {
+  color: #aaf;
+  font-size: 18px;
+  background-color: #222;
+  font-family: 'Cutive Mono', monospace;
+}
+
+/*nav {
+  top: 0;
+  left: 500px;
+  position: fixed;
+}
+
+nav li {
+  list-style: none;
+}*/
+
+footer {
+  height: 800px;
+  max-width: 500px;
+}
